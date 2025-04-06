@@ -39,16 +39,16 @@ export default function Home() {
   return (
     <div className="">
       <div className="mt-10">
-        <div className=" w-[70%] m-auto">
+        <div className=" w-[70%] m-auto ">
           <ComponentHeader />
         </div>
-        <div ref={heroRef} className="mt-[120px]">
+        <div ref={heroRef} className="mt-[120px] opacity-0">
           <ComponentBody />
         </div>
-        <div ref={productRef} className="mt-[100px]">
+        <div ref={productRef} className="mt-[100px] opacity-0">
           <ComponentHire />
         </div>
-        <div ref={featureRef} className="">
+        <div ref={featureRef} className="opacity-0">
           <ComponentBottom />
         </div>
       </div>
