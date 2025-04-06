@@ -17,10 +17,10 @@ const ComponentBody = () => {
                 Is a keyword representing the largest minimal content
                 contribution of the grid items occupying the grid track. For
                 example, if the first element of the grid track contains the
-                sentence "Repetitio est mater studiorum" and the second element
-                contains the sentence "Dum spiro, spero", minimal content
+                sentence Repetitio est mater studiorum and the second element
+                contains the sentence Dum spiro, spero, minimal content
                 contribution will be defined by the size of the largest word
-                among all of the sentences in the grid elements - "studiorum".
+                among all of the sentences in the grid elements - studiorum.
               </p>
             </div>
             <div className="">

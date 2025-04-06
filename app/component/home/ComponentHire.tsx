@@ -17,7 +17,7 @@ const ComponentHire = () => {
                 Is a keyword representing the largest minimal content
                 contribution of the grid items occupying the grid track. For
                 example, if the first element of the grid track contains the
-                sentence "Repetitio est mater studiorum".
+                sentence .
               </p>
             </div>
             <div className="w-[100px] h-[100px] m-auto">
@@ -37,7 +37,7 @@ const ComponentHire = () => {
                 Is a keyword representing the largest minimal content
                 contribution of the grid items occupying the grid track. For
                 example, if the first element of the grid track contains the
-                sentence "Repetitio est mater studiorum".
+                sentence.
               </p>
             </div>
             <div className="w-[100px] h-[100px] m-auto">
@@ -57,7 +57,7 @@ const ComponentHire = () => {
                 Is a keyword representing the largest minimal content
                 contribution of the grid items occupying the grid track. For
                 example, if the first element of the grid track contains the
-                sentence "Repetitio est mater studiorum".
+                sentence.
               </p>
             </div>
             <div className="w-[100px] h-[100px] m-auto">
@@ -77,7 +77,7 @@ const ComponentHire = () => {
                 Is a keyword representing the largest minimal content
                 contribution of the grid items occupying the grid track. For
                 example, if the first element of the grid track contains the
-                sentence "Repetitio est mater studiorum".
+                sentence.
               </p>
             </div>
             <div className="w-[100px] h-[100px] m-auto">
