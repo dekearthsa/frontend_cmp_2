@@ -1,9 +1,12 @@
 "use client";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const ComponentHeader = () => {
-  const debugBTN = () => {
-    console.log("sss");
+  const router = useRouter();
+
+  const navigateTo = (path: string) => {
+    router.push(path);
   };
 
   return (
@@ -17,6 +20,9 @@ const ComponentHeader = () => {
             width={80}
             height={80}
             objectFit="cover"
+            onClick={() => {
+              navigateTo("/");
+            }}
           />
         </div>
         <div className="flex justify-end">
@@ -24,19 +30,29 @@ const ComponentHeader = () => {
             <button
               className="transition-colors duration-300 hover:bg-gray-600 rounded-3xl w-[150px]"
               onClick={() => {
-                debugBTN();
+                navigateTo("/");
               }}
             >
               PROJECT
             </button>
           </div>
           <div className=" text-[17px]">
-            <button className="transition-colors duration-300 hover:bg-gray-600 rounded-3xl w-[150px]">
+            <button
+              className="transition-colors duration-300 hover:bg-gray-600 rounded-3xl w-[150px]"
+              onClick={() => {
+                navigateTo("/view/pricing");
+              }}
+            >
               PRICING
             </button>
           </div>
           <div className="mr-[60px] text-[17px]">
-            <button className="transition-colors duration-300 hover:bg-gray-600 rounded-3xl w-[150px]">
+            <button
+              className="transition-colors duration-300 hover:bg-gray-600 rounded-3xl w-[150px]"
+              onClick={() => {
+                navigateTo("/view/contact");
+              }}
+            >
               CONTACT
             </button>
           </div>
